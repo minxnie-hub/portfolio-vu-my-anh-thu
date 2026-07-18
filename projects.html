@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dự án | Vũ Mỹ Anh Thư</title>
+  <meta name="description" content="Danh sách 6 bài tập trong portfolio học tập của Vũ Mỹ Anh Thư.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@500;600;700&family=Mali:wght@500&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/brand/ulis-logo.png">
+  <link rel="apple-touch-icon" href="assets/brand/ulis-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Trang Một chút về mình">
+      <img src="assets/brand/ulis-logo.png" alt="Logo Trường Đại học Ngoại ngữ - ĐHQGHN">
+      <span>Nhập môn CNS&amp;AI</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="siteNav"><span></span><span></span></button>
+    <nav class="nav" id="siteNav" aria-label="Điều hướng chính">
+      <a href="index.html">Một chút về mình</a>
+      <a href="projects.html" aria-current="page">Dự án</a>
+      <a href="conclusion.html">Tổng kết</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main id="main" class="page-main">
+    <section class="section-shell page-hero">
+      <p class="chapter-label reveal">Sổ bài tập</p>
+      <h1 class="reveal">Dự án</h1>
+      <p class="editorial-note reveal">Nhấn vào từng bài tập để xem nội dung chi tiết, quy trình thực hiện và minh chứng.</p>
+    </section>
+
+    <section class="projects section-shell">
+      <div class="project-filter reveal" aria-label="Bộ lọc dự án">
+        <button type="button" data-filter="all" aria-pressed="true">Tất cả</button>
+        <button type="button" data-filter="btw1" aria-pressed="false">Bài tập 1</button>
+        <button type="button" data-filter="btw2" aria-pressed="false">Bài tập 2</button>
+        <button type="button" data-filter="btw3" aria-pressed="false">Bài tập 3</button>
+        <button type="button" data-filter="btw4" aria-pressed="false">Bài tập 4</button>
+        <button type="button" data-filter="btw5" aria-pressed="false">Bài tập 5</button>
+        <button type="button" data-filter="btw6" aria-pressed="false">Bài tập 6</button>
+      </div>
+
+      <div class="project-grid filterable-projects">
+        <article class="project-card reveal" data-project="btw1">
+          <span>01</span>
+          <h2>Thao tác cơ bản với tệp tin và thư mục</h2>
+          <p>Thực hành tạo thư mục, đổi tên tệp, sao chép, di chuyển, xóa và khôi phục dữ liệu trong Windows.</p>
+          <a href="detail.html?project=btw1">Mở bài 1</a>
+        </article>
+        <article class="project-card reveal" data-project="btw2">
+          <span>02</span>
+          <h2>Tìm kiếm và đánh giá thông tin học thuật</h2>
+          <p>Nghiên cứu khái niệm 우리 (Uri), cái tôi tập thể trong văn hóa Hàn Quốc, thông qua nguồn học thuật.</p>
+          <a href="detail.html?project=btw2">Mở bài 2</a>
+        </article>
+        <article class="project-card reveal featured-filter-card" data-project="btw3">
+          <span>03</span>
+          <h2>Viết prompt hiệu quả cho tác vụ học tập</h2>
+          <p>So sánh prompt cơ bản, cải tiến và nâng cao trong các tác vụ tóm tắt tài liệu, giải thích khái niệm ngôn ngữ và thiết kế câu hỏi ôn tập.</p>
+          <a href="detail.html?project=btw3">Mở bài 3</a>
+        </article>
+        <article class="project-card reveal tall" data-project="btw4">
+          <span>04</span>
+          <h2>Sử dụng công cụ hợp tác trực tuyến</h2>
+          <p>Báo cáo trải nghiệm điều phối nội dung kịch bản và quản lý tài nguyên số cho dự án website AI về Chiêm tinh học và Thần số học.</p>
+          <a href="detail.html?project=btw4">Mở bài 4</a>
+        </article>
+        <article class="project-card reveal" data-project="btw5">
+          <span>05</span>
+          <h2>AI tạo sinh hỗ trợ sáng tạo nội dung</h2>
+          <p>Thực hiện infographic “Tiếng vang từ Đại dương” bằng Google Gemini, Leonardo.Ai và Canva AI; có đầy đủ prompt, biến thể hình ảnh và thành phẩm.</p>
+          <a href="detail.html?project=btw5">Mở bài 5</a>
+        </article>
+        <article class="project-card reveal wide" data-project="btw6">
+          <span>06</span>
+          <h2>Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h2>
+          <p>Phân tích vùng xám đạo đức, AI hallucination, rủi ro phụ thuộc công nghệ; kèm sáu nguyên tắc cá nhân và infographic mới.</p>
+          <a href="detail.html?project=btw6">Mở bài 6</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell shortcut-note">
+      <p class="chapter-label reveal">Mẩu giấy nhớ</p>
+      <div class="shortcut-grid reveal">
+        <p>Một số thao tác trong các bài thực hành được trình bày bằng ký hiệu phím tắt để dễ theo dõi hơn:</p>
+        <ul>
+          <li><kbd>Ctrl</kbd> + <kbd>C</kbd> hoặc <kbd>⌘</kbd> + <kbd>C</kbd>: sao chép</li>
+          <li><kbd>Ctrl</kbd> + <kbd>V</kbd> hoặc <kbd>⌘</kbd> + <kbd>V</kbd>: dán</li>
+          <li><kbd>Shift</kbd> + <kbd>Delete</kbd>: xóa vĩnh viễn</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

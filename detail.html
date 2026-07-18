@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết bài tập | Vũ Mỹ Anh Thư</title>
+  <meta name="description" content="Trang chi tiết bài tập trong portfolio học tập của Vũ Mỹ Anh Thư.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Lora:wght@500;600;700&family=Mali:wght@500&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/brand/ulis-logo.png">
+  <link rel="apple-touch-icon" href="assets/brand/ulis-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#detailContent">Bỏ qua điều hướng</a>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="index.html" aria-label="Trang Một chút về mình">
+      <img src="assets/brand/ulis-logo.png" alt="Logo Trường Đại học Ngoại ngữ - ĐHQGHN">
+      <span>Nhập môn CNS&amp;AI</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="siteNav">
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="nav" id="siteNav" aria-label="Điều hướng chính">
+      <a href="index.html">Một chút về mình</a>
+      <a href="projects.html" aria-current="page">Dự án</a>
+      <a href="conclusion.html">Tổng kết</a>
+      <a href="contact.html">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main class="detail-page section-shell">
+    <a class="back-link" href="projects.html">Quay lại danh sách bài tập</a>
+    <article class="detail-card" id="detailContent" aria-live="polite"></article>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Xem ảnh phóng to">
+    <button class="lightbox-close" type="button" aria-label="Đóng ảnh">Đóng</button>
+    <img id="lightboxImage" alt="">
+  </div>
+
+  <script src="script.js"></script>
+  <script src="pdf-content.js"></script>
+  <script src="evidence-content.js"></script>
+  <script src="detail.js"></script>
+</body>
+</html>
